@@ -15,6 +15,8 @@
 		F4F471DC2766DE93002B206D /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F471DB2766DE93002B206D /* Stack.swift */; };
 		F4F471DE2766E3DB002B206D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F471DD2766E3DB002B206D /* ListNode.swift */; };
 		F4F471E12766E438002B206D /* Solution021.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F471E02766E438002B206D /* Solution021.swift */; };
+		F4F471E52766FBB0002B206D /* Solution026.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F471E42766FBB0002B206D /* Solution026.swift */; };
+		F4F471E8276715C0002B206D /* Solution027.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F471E7276715C0002B206D /* Solution027.swift */; };
 		F4FFE40B27635D2E0018C8AD /* Solution009.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE40A27635D2E0018C8AD /* Solution009.swift */; };
 		F4FFE40E27635FB40018C8AD /* Solution013.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE40D27635FB40018C8AD /* Solution013.swift */; };
 		F4FFE411276363FB0018C8AD /* Solution014.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE410276363FB0018C8AD /* Solution014.swift */; };
@@ -42,6 +44,8 @@
 		F4F471DB2766DE93002B206D /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		F4F471DD2766E3DB002B206D /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		F4F471E02766E438002B206D /* Solution021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution021.swift; sourceTree = "<group>"; };
+		F4F471E42766FBB0002B206D /* Solution026.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution026.swift; sourceTree = "<group>"; };
+		F4F471E7276715C0002B206D /* Solution027.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution027.swift; sourceTree = "<group>"; };
 		F4FFE40A27635D2E0018C8AD /* Solution009.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution009.swift; sourceTree = "<group>"; };
 		F4FFE40D27635FB40018C8AD /* Solution013.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution013.swift; sourceTree = "<group>"; };
 		F4FFE410276363FB0018C8AD /* Solution014.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution014.swift; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 				F4FFE40F276363EC0018C8AD /* 014.最长公共前缀 */,
 				F4F471D82766D923002B206D /* 020.有效的括号 */,
 				F4F471DF2766E428002B206D /* 021.合并两个有序链表 */,
+				F4F471E32766FBA0002B206D /* 026.删除有序数组中的重复项 */,
+				F4F471E6276715B4002B206D /* 027.移除元素 */,
 			);
 			path = LambertStudy;
 			sourceTree = "<group>";
@@ -130,6 +136,22 @@
 				F4F471DD2766E3DB002B206D /* ListNode.swift */,
 			);
 			path = 000.Tools;
+			sourceTree = "<group>";
+		};
+		F4F471E32766FBA0002B206D /* 026.删除有序数组中的重复项 */ = {
+			isa = PBXGroup;
+			children = (
+				F4F471E42766FBB0002B206D /* Solution026.swift */,
+			);
+			path = "026.删除有序数组中的重复项";
+			sourceTree = "<group>";
+		};
+		F4F471E6276715B4002B206D /* 027.移除元素 */ = {
+			isa = PBXGroup;
+			children = (
+				F4F471E7276715C0002B206D /* Solution027.swift */,
+			);
+			path = "027.移除元素";
 			sourceTree = "<group>";
 		};
 		F4FFE40927635D1F0018C8AD /* 009.回文数 */ = {
@@ -214,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A4492727634B860093A817 /* main.swift in Sources */,
+				F4F471E52766FBB0002B206D /* Solution026.swift in Sources */,
 				F4F471DC2766DE93002B206D /* Stack.swift in Sources */,
 				F4FFE40B27635D2E0018C8AD /* Solution009.swift in Sources */,
 				F4F471E12766E438002B206D /* Solution021.swift in Sources */,
@@ -221,6 +244,7 @@
 				F4F471DA2766D923002B206D /* Solution020.swift in Sources */,
 				F4FFE411276363FB0018C8AD /* Solution014.swift in Sources */,
 				F4A44931276358030093A817 /* Solution.swift in Sources */,
+				F4F471E8276715C0002B206D /* Solution027.swift in Sources */,
 				F4FFE40E27635FB40018C8AD /* Solution013.swift in Sources */,
 				F4A449342763589C0093A817 /* Solution007.swift in Sources */,
 				F4F471DE2766E3DB002B206D /* ListNode.swift in Sources */,
