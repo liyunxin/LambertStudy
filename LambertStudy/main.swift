@@ -7,8 +7,9 @@
 
 import Foundation
 
-//Solution01.example()
-//Solution07.example()
-//Solution09.example()
-//Solution13.example()
-Solution14.example()
+//Solution001().fire()
+//Solution007().fire()
+//Solution009().fire()
+//Solution013().fire()
+//Solution014().fire()
+Solution020().fire()

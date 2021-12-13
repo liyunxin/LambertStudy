@@ -1,5 +1,5 @@
 //
-//  Solution13.swift
+//  Solution013.swift
 //  LambertStudy
 //
 //  Created by Lambert on 2021/12/10.
@@ -7,8 +7,15 @@
 
 import Foundation
 
-class Solution13 : Solution {
-    let logStr:String = "13. 罗马数字转整数"
+class Solution013 : Solution {
+    override func logStr() -> String {
+        return "13.罗马数字转整数"
+    }
+    
+    override func example() {
+        let romanNum:String = "LVIII"
+        print("结果：\(romanNum) -> \(self.romanToInt(romanNum))")
+    }
     
     let romanIntMap:[String:Int] = [
         "I" : 1,
@@ -33,15 +40,5 @@ class Solution13 : Solution {
             lastValue = value
         }
         return result
-    }
-}
-
-extension Solution13 {
-    static func example() {
-        let s:Solution13 = Solution13()
-        print(s.logStr)
-        let romanNum:String = "LVIII"
-        print("结果：\(romanNum) -> \(s.romanToInt(romanNum))")
-        s.printLine()
     }
 }

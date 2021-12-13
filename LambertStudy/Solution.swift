@@ -8,20 +8,17 @@
 import Foundation
 
 class Solution {
-    func printLine() {
+    func fire() {
+        print(self.logStr())
+        self.example()
         print("-------------------------------")
     }
+    
+    func logStr() -> String {
+        return ""
+    }
+    
+    func example() {
+        
+    }
 }
-
-//class Solution : Solution {
-//    let logStr:String = ""
-//}
-//
-//extension Solution {
-//    static func example() {
-//        let s:Solution = Solution()
-//        print(s.logStr)
-//
-//        s.printLine()
-//    }
-//}

@@ -1,5 +1,5 @@
 //
-//  Solution14.swift
+//  Solution014.swift
 //  LambertStudy
 //
 //  Created by Lambert on 2021/12/10.
@@ -7,8 +7,14 @@
 
 import Foundation
 
-class Solution14 : Solution {
-    let logStr:String = "14. 最长公共前缀"
+class Solution014 : Solution {
+    override func logStr() -> String {
+        return "14.最长公共前缀"
+    }
+    
+    override func example() {
+        print("结果：\(self.longestCommonPrefix(["ab", "a", "abc"]))")
+    }
     
     func longestCommonPrefix(_ strs: [String]) -> String {
         if strs.count <= 1 {
@@ -32,14 +38,5 @@ class Solution14 : Solution {
         }
         
         return prefix
-    }
-}
-
-extension Solution14 {
-    static func example() {
-        let s:Solution14 = Solution14()
-        print(s.logStr)
-        print("结果：\(s.longestCommonPrefix(["ab", "a", "abc"]))")
-        s.printLine()
     }
 }

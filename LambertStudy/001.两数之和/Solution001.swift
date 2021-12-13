@@ -1,12 +1,20 @@
 //
-//  Solution01.swift
+//  Solution001.swift
 //  LambertStudy
 //
 //  Created by Lambert on 2021/12/10.
 //
 
-class Solution01 : Solution {
-    let logStr:String = "01.两数之和"
+class Solution001 : Solution {
+    override func logStr() -> String {
+        return "001.两数之和"
+    }
+    
+    override func example() {
+        let nums = [1, 2, 3, 4, 5]
+        let target = 8
+        print("结果：\(self.twoSum(nums, target))")
+    }
     
     //    //1、穷举法
     //    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
@@ -36,18 +44,6 @@ class Solution01 : Solution {
         }
         
         return []
-    }
-}
-
-extension Solution01 {
-    static func example() {
-        let nums = [1, 2, 3, 4, 5]
-        let target = 8
-
-        let s:Solution01 = Solution01()
-        print(s.logStr)
-        print("结果：\(s.twoSum(nums, target))")
-        s.printLine()
     }
 }
 
