@@ -12,6 +12,7 @@
 		F4A44931276358030093A817 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A44930276358030093A817 /* Solution.swift */; };
 		F4A449342763589C0093A817 /* Solution007.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A449332763589C0093A817 /* Solution007.swift */; };
 		F4F471DA2766D923002B206D /* Solution020.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F471D92766D923002B206D /* Solution020.swift */; };
+		F4F471DC2766DE93002B206D /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F471DB2766DE93002B206D /* Stack.swift */; };
 		F4FFE40B27635D2E0018C8AD /* Solution009.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE40A27635D2E0018C8AD /* Solution009.swift */; };
 		F4FFE40E27635FB40018C8AD /* Solution013.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE40D27635FB40018C8AD /* Solution013.swift */; };
 		F4FFE411276363FB0018C8AD /* Solution014.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE410276363FB0018C8AD /* Solution014.swift */; };
@@ -36,6 +37,7 @@
 		F4A44930276358030093A817 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		F4A449332763589C0093A817 /* Solution007.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution007.swift; sourceTree = "<group>"; };
 		F4F471D92766D923002B206D /* Solution020.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution020.swift; sourceTree = "<group>"; };
+		F4F471DB2766DE93002B206D /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		F4FFE40A27635D2E0018C8AD /* Solution009.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution009.swift; sourceTree = "<group>"; };
 		F4FFE40D27635FB40018C8AD /* Solution013.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution013.swift; sourceTree = "<group>"; };
 		F4FFE410276363FB0018C8AD /* Solution014.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution014.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 			children = (
 				F4A4492627634B860093A817 /* main.swift */,
 				F4A44930276358030093A817 /* Solution.swift */,
+				F4F471DB2766DE93002B206D /* Stack.swift */,
 				F4A4492D2763571B0093A817 /* 001.两数之和 */,
 				F4A44932276358900093A817 /* 007.整数反转 */,
 				F4FFE40927635D1F0018C8AD /* 009.回文数 */,
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A4492727634B860093A817 /* main.swift in Sources */,
+				F4F471DC2766DE93002B206D /* Stack.swift in Sources */,
 				F4FFE40B27635D2E0018C8AD /* Solution009.swift in Sources */,
 				F4A4492F276357230093A817 /* Solution001.swift in Sources */,
 				F4F471DA2766D923002B206D /* Solution020.swift in Sources */,
