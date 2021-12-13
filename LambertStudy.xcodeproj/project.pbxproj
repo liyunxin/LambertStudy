@@ -13,6 +13,8 @@
 		F4A449342763589C0093A817 /* Solution007.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A449332763589C0093A817 /* Solution007.swift */; };
 		F4F471DA2766D923002B206D /* Solution020.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F471D92766D923002B206D /* Solution020.swift */; };
 		F4F471DC2766DE93002B206D /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F471DB2766DE93002B206D /* Stack.swift */; };
+		F4F471DE2766E3DB002B206D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F471DD2766E3DB002B206D /* ListNode.swift */; };
+		F4F471E12766E438002B206D /* Solution021.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F471E02766E438002B206D /* Solution021.swift */; };
 		F4FFE40B27635D2E0018C8AD /* Solution009.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE40A27635D2E0018C8AD /* Solution009.swift */; };
 		F4FFE40E27635FB40018C8AD /* Solution013.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE40D27635FB40018C8AD /* Solution013.swift */; };
 		F4FFE411276363FB0018C8AD /* Solution014.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFE410276363FB0018C8AD /* Solution014.swift */; };
@@ -38,6 +40,8 @@
 		F4A449332763589C0093A817 /* Solution007.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution007.swift; sourceTree = "<group>"; };
 		F4F471D92766D923002B206D /* Solution020.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution020.swift; sourceTree = "<group>"; };
 		F4F471DB2766DE93002B206D /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		F4F471DD2766E3DB002B206D /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		F4F471E02766E438002B206D /* Solution021.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution021.swift; sourceTree = "<group>"; };
 		F4FFE40A27635D2E0018C8AD /* Solution009.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution009.swift; sourceTree = "<group>"; };
 		F4FFE40D27635FB40018C8AD /* Solution013.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution013.swift; sourceTree = "<group>"; };
 		F4FFE410276363FB0018C8AD /* Solution014.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution014.swift; sourceTree = "<group>"; };
@@ -75,13 +79,14 @@
 			children = (
 				F4A4492627634B860093A817 /* main.swift */,
 				F4A44930276358030093A817 /* Solution.swift */,
-				F4F471DB2766DE93002B206D /* Stack.swift */,
+				F4F471E22766E4B9002B206D /* 000.Tools */,
 				F4A4492D2763571B0093A817 /* 001.两数之和 */,
 				F4A44932276358900093A817 /* 007.整数反转 */,
 				F4FFE40927635D1F0018C8AD /* 009.回文数 */,
 				F4FFE40C27635FA10018C8AD /* 013.罗马数字转整数 */,
 				F4FFE40F276363EC0018C8AD /* 014.最长公共前缀 */,
 				F4F471D82766D923002B206D /* 020.有效的括号 */,
+				F4F471DF2766E428002B206D /* 021.合并两个有序链表 */,
 			);
 			path = LambertStudy;
 			sourceTree = "<group>";
@@ -108,6 +113,23 @@
 				F4F471D92766D923002B206D /* Solution020.swift */,
 			);
 			path = "020.有效的括号";
+			sourceTree = "<group>";
+		};
+		F4F471DF2766E428002B206D /* 021.合并两个有序链表 */ = {
+			isa = PBXGroup;
+			children = (
+				F4F471E02766E438002B206D /* Solution021.swift */,
+			);
+			path = "021.合并两个有序链表";
+			sourceTree = "<group>";
+		};
+		F4F471E22766E4B9002B206D /* 000.Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F4F471DB2766DE93002B206D /* Stack.swift */,
+				F4F471DD2766E3DB002B206D /* ListNode.swift */,
+			);
+			path = 000.Tools;
 			sourceTree = "<group>";
 		};
 		F4FFE40927635D1F0018C8AD /* 009.回文数 */ = {
@@ -194,12 +216,14 @@
 				F4A4492727634B860093A817 /* main.swift in Sources */,
 				F4F471DC2766DE93002B206D /* Stack.swift in Sources */,
 				F4FFE40B27635D2E0018C8AD /* Solution009.swift in Sources */,
+				F4F471E12766E438002B206D /* Solution021.swift in Sources */,
 				F4A4492F276357230093A817 /* Solution001.swift in Sources */,
 				F4F471DA2766D923002B206D /* Solution020.swift in Sources */,
 				F4FFE411276363FB0018C8AD /* Solution014.swift in Sources */,
 				F4A44931276358030093A817 /* Solution.swift in Sources */,
 				F4FFE40E27635FB40018C8AD /* Solution013.swift in Sources */,
 				F4A449342763589C0093A817 /* Solution007.swift in Sources */,
+				F4F471DE2766E3DB002B206D /* ListNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
