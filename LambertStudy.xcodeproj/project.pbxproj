@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F48B0569276843160002C01E /* Solution053.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B0568276843160002C01E /* Solution053.swift */; };
+		F48B056C27684C8F0002C01E /* Solution058.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B056B27684C8F0002C01E /* Solution058.swift */; };
+		F48B056F276868000002C01E /* Solution066.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B056E276868000002C01E /* Solution066.swift */; };
+		F48B057227686BBE0002C01E /* Solution067.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B057127686BBE0002C01E /* Solution067.swift */; };
+		F48B057527687A820002C01E /* Solution069.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B057427687A820002C01E /* Solution069.swift */; };
+		F48B0578276888D20002C01E /* Solution070.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B0577276888D20002C01E /* Solution070.swift */; };
+		F48B057B276890CC0002C01E /* Solution080.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B057A276890CC0002C01E /* Solution080.swift */; };
+		F48B057E27689A4E0002C01E /* Solution088.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B057D27689A4E0002C01E /* Solution088.swift */; };
+		F48B05822768A6510002C01E /* Solution202.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B05812768A6510002C01E /* Solution202.swift */; };
+		F48FA11427675523009A01B7 /* Solution035.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48FA11327675523009A01B7 /* Solution035.swift */; };
 		F4A4492727634B860093A817 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4492627634B860093A817 /* main.swift */; };
 		F4A44931276358030093A817 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A44930276358030093A817 /* Solution.swift */; };
 		F4F471DC2766DE93002B206D /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F471DB2766DE93002B206D /* Stack.swift */; };
@@ -36,6 +46,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F48B0568276843160002C01E /* Solution053.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution053.swift; sourceTree = "<group>"; };
+		F48B056B27684C8F0002C01E /* Solution058.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution058.swift; sourceTree = "<group>"; };
+		F48B056E276868000002C01E /* Solution066.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution066.swift; sourceTree = "<group>"; };
+		F48B057127686BBE0002C01E /* Solution067.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution067.swift; sourceTree = "<group>"; };
+		F48B057427687A820002C01E /* Solution069.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution069.swift; sourceTree = "<group>"; };
+		F48B0577276888D20002C01E /* Solution070.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution070.swift; sourceTree = "<group>"; };
+		F48B057A276890CC0002C01E /* Solution080.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution080.swift; sourceTree = "<group>"; };
+		F48B057D27689A4E0002C01E /* Solution088.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution088.swift; sourceTree = "<group>"; };
+		F48B05812768A6510002C01E /* Solution202.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution202.swift; sourceTree = "<group>"; };
+		F48FA11327675523009A01B7 /* Solution035.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution035.swift; sourceTree = "<group>"; };
 		F4A4492327634B860093A817 /* LambertStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LambertStudy; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A4492627634B860093A817 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F4A44930276358030093A817 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -64,6 +84,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F48B0567276843090002C01E /* 053.最大子数组和 */ = {
+			isa = PBXGroup;
+			children = (
+				F48B0568276843160002C01E /* Solution053.swift */,
+			);
+			path = "053.最大子数组和";
+			sourceTree = "<group>";
+		};
+		F48B056A27684C800002C01E /* 058.最后一个单词的长度 */ = {
+			isa = PBXGroup;
+			children = (
+				F48B056B27684C8F0002C01E /* Solution058.swift */,
+			);
+			path = "058.最后一个单词的长度";
+			sourceTree = "<group>";
+		};
+		F48B056D276867D10002C01E /* 066.加一 */ = {
+			isa = PBXGroup;
+			children = (
+				F48B056E276868000002C01E /* Solution066.swift */,
+			);
+			path = "066.加一";
+			sourceTree = "<group>";
+		};
+		F48B057027686A3B0002C01E /* 067.二进制求和 */ = {
+			isa = PBXGroup;
+			children = (
+				F48B057127686BBE0002C01E /* Solution067.swift */,
+			);
+			path = "067.二进制求和";
+			sourceTree = "<group>";
+		};
+		F48B057327687A790002C01E /* 069.算术平方根 */ = {
+			isa = PBXGroup;
+			children = (
+				F48B057427687A820002C01E /* Solution069.swift */,
+			);
+			path = "069.算术平方根";
+			sourceTree = "<group>";
+		};
+		F48B0576276888AB0002C01E /* 070.爬楼梯 */ = {
+			isa = PBXGroup;
+			children = (
+				F48B0577276888D20002C01E /* Solution070.swift */,
+			);
+			path = "070.爬楼梯";
+			sourceTree = "<group>";
+		};
+		F48B057927688F890002C01E /* 083.删除排序链表中的重复元素 */ = {
+			isa = PBXGroup;
+			children = (
+				F48B057A276890CC0002C01E /* Solution080.swift */,
+			);
+			path = "083.删除排序链表中的重复元素";
+			sourceTree = "<group>";
+		};
+		F48B057C27689A410002C01E /* 088.合并两个有序数组 */ = {
+			isa = PBXGroup;
+			children = (
+				F48B057D27689A4E0002C01E /* Solution088.swift */,
+			);
+			path = "088.合并两个有序数组";
+			sourceTree = "<group>";
+		};
+		F48B057F2768A6260002C01E /* 200-299 */ = {
+			isa = PBXGroup;
+			children = (
+				F48B05802768A6430002C01E /* 202.快乐数 */,
+			);
+			path = "200-299";
+			sourceTree = "<group>";
+		};
+		F48B05802768A6430002C01E /* 202.快乐数 */ = {
+			isa = PBXGroup;
+			children = (
+				F48B05812768A6510002C01E /* Solution202.swift */,
+			);
+			path = "202.快乐数";
+			sourceTree = "<group>";
+		};
+		F48FA11227675511009A01B7 /* 035.搜索插入位置 */ = {
+			isa = PBXGroup;
+			children = (
+				F48FA11327675523009A01B7 /* Solution035.swift */,
+			);
+			path = "035.搜索插入位置";
+			sourceTree = "<group>";
+		};
 		F4A4491A27634B860093A817 = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +194,8 @@
 				F4A4492627634B860093A817 /* main.swift */,
 				F4A44930276358030093A817 /* Solution.swift */,
 				F4F471E22766E4B9002B206D /* Tools */,
-				F4F471EC276718B1002B206D /* 0-99 */,
+				F4F471EC276718B1002B206D /* 000-099 */,
+				F48B057F2768A6260002C01E /* 200-299 */,
 			);
 			path = LambertStudy;
 			sourceTree = "<group>";
@@ -100,7 +209,7 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		F4F471EC276718B1002B206D /* 0-99 */ = {
+		F4F471EC276718B1002B206D /* 000-099 */ = {
 			isa = PBXGroup;
 			children = (
 				F4F471F9276718B1002B206D /* 001.两数之和 */,
@@ -112,9 +221,18 @@
 				F4F471F7276718B1002B206D /* 021.合并两个有序链表 */,
 				F4F471F1276718B1002B206D /* 026.删除有序数组中的重复项 */,
 				F4F471FB276718B1002B206D /* 027.移除元素 */,
-				F4F471F5276718B1002B206D /* 028.实现strStr() 未通过 */,
+				F4F471F5276718B1002B206D /* 未通过 028.实现strStr() */,
+				F48FA11227675511009A01B7 /* 035.搜索插入位置 */,
+				F48B0567276843090002C01E /* 053.最大子数组和 */,
+				F48B056A27684C800002C01E /* 058.最后一个单词的长度 */,
+				F48B056D276867D10002C01E /* 066.加一 */,
+				F48B057027686A3B0002C01E /* 067.二进制求和 */,
+				F48B057327687A790002C01E /* 069.算术平方根 */,
+				F48B0576276888AB0002C01E /* 070.爬楼梯 */,
+				F48B057927688F890002C01E /* 083.删除排序链表中的重复元素 */,
+				F48B057C27689A410002C01E /* 088.合并两个有序数组 */,
 			);
-			path = "0-99";
+			path = "000-099";
 			sourceTree = "<group>";
 		};
 		F4F471ED276718B1002B206D /* 009.回文数 */ = {
@@ -149,12 +267,12 @@
 			path = "020.有效的括号";
 			sourceTree = "<group>";
 		};
-		F4F471F5276718B1002B206D /* 028.实现strStr() 未通过 */ = {
+		F4F471F5276718B1002B206D /* 未通过 028.实现strStr() */ = {
 			isa = PBXGroup;
 			children = (
 				F4F471F6276718B1002B206D /* Solution028.swift */,
 			);
-			path = "028.实现strStr() 未通过";
+			path = "未通过 028.实现strStr()";
 			sourceTree = "<group>";
 		};
 		F4F471F7276718B1002B206D /* 021.合并两个有序链表 */ = {
@@ -254,20 +372,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F48B056C27684C8F0002C01E /* Solution058.swift in Sources */,
 				F4F47202276718B1002B206D /* Solution007.swift in Sources */,
+				F48B0569276843160002C01E /* Solution053.swift in Sources */,
 				F4A4492727634B860093A817 /* main.swift in Sources */,
+				F48B057527687A820002C01E /* Solution069.swift in Sources */,
 				F4F47206276718B1002B206D /* Solution021.swift in Sources */,
 				F4F47203276718B1002B206D /* Solution026.swift in Sources */,
 				F4F47204276718B1002B206D /* Solution020.swift in Sources */,
 				F4F471DC2766DE93002B206D /* Stack.swift in Sources */,
+				F48B0578276888D20002C01E /* Solution070.swift in Sources */,
 				F4A44931276358030093A817 /* Solution.swift in Sources */,
+				F48B057227686BBE0002C01E /* Solution067.swift in Sources */,
 				F4F47207276718B1002B206D /* Solution001.swift in Sources */,
+				F48B057E27689A4E0002C01E /* Solution088.swift in Sources */,
+				F48FA11427675523009A01B7 /* Solution035.swift in Sources */,
 				F4F47201276718B1002B206D /* Solution009.swift in Sources */,
+				F48B057B276890CC0002C01E /* Solution080.swift in Sources */,
 				F4F47205276718B1002B206D /* Solution028.swift in Sources */,
 				F4F47209276718B1002B206D /* Solution014.swift in Sources */,
 				F4F4720A276718B1002B206D /* Solution013.swift in Sources */,
 				F4F47208276718B1002B206D /* Solution027.swift in Sources */,
+				F48B05822768A6510002C01E /* Solution202.swift in Sources */,
 				F4F471DE2766E3DB002B206D /* ListNode.swift in Sources */,
+				F48B056F276868000002C01E /* Solution066.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

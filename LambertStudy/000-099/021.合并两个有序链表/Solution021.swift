@@ -21,7 +21,7 @@ import Foundation
 
 class Solution021 : Solution {
     override func logStr() -> String {
-        return "020.有效的括号"
+        return "021.合并两个有序链表"
     }
     
     override func example() {
@@ -39,13 +39,9 @@ class Solution021 : Solution {
         node21.next = node22
         node22.next = node23
         
-        var newNode:ListNode? = self.mergeTwoLists(node11, node21)
-        var logStr:String = "结果："
-        while newNode != nil {
-            logStr += "\(newNode?.val ?? 0) -> "
-            newNode = newNode?.next
+        if let log = self.mergeTwoLists(node11, node21)?.getLogStr() {
+            print("结果：\(log)")
         }
-        print(logStr)
     }
     
     func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
