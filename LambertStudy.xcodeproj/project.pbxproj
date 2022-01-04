@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F47F95B9276C2103006A7A4E /* Solution119.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F95B8276C2103006A7A4E /* Solution119.swift */; };
+		F47F95BC276C2238006A7A4E /* Solution121.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F95BB276C2238006A7A4E /* Solution121.swift */; };
 		F4898DF927698C8200E544AE /* Solution094.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4898DF827698C8200E544AE /* Solution094.swift */; };
 		F4898DFB27698CEB00E544AE /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4898DFA27698CEB00E544AE /* TreeNode.swift */; };
 		F4898DFF276997D800E544AE /* Solution100.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4898DFE276997D800E544AE /* Solution100.swift */; };
@@ -56,6 +58,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F47F95B8276C2103006A7A4E /* Solution119.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution119.swift; sourceTree = "<group>"; };
+		F47F95BB276C2238006A7A4E /* Solution121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution121.swift; sourceTree = "<group>"; };
 		F4898DF827698C8200E544AE /* Solution094.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution094.swift; sourceTree = "<group>"; };
 		F4898DFA27698CEB00E544AE /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		F4898DFE276997D800E544AE /* Solution100.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution100.swift; sourceTree = "<group>"; };
@@ -104,6 +108,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F47F95B7276C20F4006A7A4E /* 119.杨辉三角II */ = {
+			isa = PBXGroup;
+			children = (
+				F47F95B8276C2103006A7A4E /* Solution119.swift */,
+			);
+			path = "119.杨辉三角II";
+			sourceTree = "<group>";
+		};
+		F47F95BA276C2228006A7A4E /* 121.买卖股票的最佳时机 */ = {
+			isa = PBXGroup;
+			children = (
+				F47F95BB276C2238006A7A4E /* Solution121.swift */,
+			);
+			path = "121.买卖股票的最佳时机";
+			sourceTree = "<group>";
+		};
 		F4898DF727698B7F00E544AE /* 094.二叉树的中序遍历 */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +143,8 @@
 				F4898E0C2769F9B800E544AE /* 111.二叉树的最小深度 */,
 				F4898E0F276ADC0F00E544AE /* 112.路径总和 */,
 				F4898E12276AE03200E544AE /* 118.杨辉三角 */,
+				F47F95B7276C20F4006A7A4E /* 119.杨辉三角II */,
+				F47F95BA276C2228006A7A4E /* 121.买卖股票的最佳时机 */,
 			);
 			path = "100-199";
 			sourceTree = "<group>";
@@ -499,6 +521,7 @@
 				F4898E11276ADC1D00E544AE /* Solution112.swift in Sources */,
 				F4F471DC2766DE93002B206D /* Stack.swift in Sources */,
 				F48B0578276888D20002C01E /* Solution070.swift in Sources */,
+				F47F95B9276C2103006A7A4E /* Solution119.swift in Sources */,
 				F4A44931276358030093A817 /* Solution.swift in Sources */,
 				F48B057227686BBE0002C01E /* Solution067.swift in Sources */,
 				F4F47207276718B1002B206D /* Solution001.swift in Sources */,
@@ -514,6 +537,7 @@
 				F4F4720A276718B1002B206D /* Solution013.swift in Sources */,
 				F4F47208276718B1002B206D /* Solution027.swift in Sources */,
 				F48B05822768A6510002C01E /* Solution202.swift in Sources */,
+				F47F95BC276C2238006A7A4E /* Solution121.swift in Sources */,
 				F4F471DE2766E3DB002B206D /* ListNode.swift in Sources */,
 				F48B056F276868000002C01E /* Solution066.swift in Sources */,
 			);
