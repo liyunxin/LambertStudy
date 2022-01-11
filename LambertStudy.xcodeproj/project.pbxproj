@@ -50,6 +50,9 @@
 		F4FA96B4278FBA5300C1588D /* Solution145.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA96B3278FBA5300C1588D /* Solution145.swift */; };
 		F4FA96B7278FBDCC00C1588D /* Solution155.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA96B6278FBDCC00C1588D /* Solution155.swift */; };
 		F4FA96BA278FC15200C1588D /* Solution160.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA96B9278FC15200C1588D /* Solution160.swift */; };
+		F4FA96BD278FC15200C1588D /* Solution167.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA96BC278FC15200C1588D /* Solution167.swift */; };
+		F4FA96C0278FC15200C1588D /* Solution168.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA96BF278FC15200C1588D /* Solution168.swift */; };
+		F4FA96C3278FC15200C1588D /* Solution169.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA96C2278FC15200C1588D /* Solution169.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,6 +112,9 @@
 		F4FA96B3278FBA5300C1588D /* Solution145.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution145.swift; sourceTree = "<group>"; };
 		F4FA96B6278FBDCC00C1588D /* Solution155.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution155.swift; sourceTree = "<group>"; };
 		F4FA96B9278FC15200C1588D /* Solution160.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution160.swift; sourceTree = "<group>"; };
+		F4FA96BC278FC15200C1588D /* Solution167.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution167.swift; sourceTree = "<group>"; };
+		F4FA96BF278FC15200C1588D /* Solution168.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution168.swift; sourceTree = "<group>"; };
+		F4FA96C2278FC15200C1588D /* Solution169.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution169.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +204,9 @@
 				F4FA96B2278FBA4500C1588D /* 145.二叉树的后序遍历 */,
 				F4FA96B5278FBD5B00C1588D /* 155.最小栈 */,
 				F4FA96B8278FC14700C1588D /* 160.相交链表 */,
+				F4FA96BB278FC15200C1588D /* 167.两数之和 II - 输入有序数组 */,
+				F4FA96BE278FC15200C1588D /* 168.Excel表列名称 */,
+				F4FA96C1278FC15200C1588D /* 169.多数元素 */,
 			);
 			path = "100-199";
 			sourceTree = "<group>";
@@ -524,6 +533,30 @@
 			path = "160.相交链表";
 			sourceTree = "<group>";
 		};
+		F4FA96BB278FC15200C1588D /* 167.两数之和 II - 输入有序数组 */ = {
+			isa = PBXGroup;
+			children = (
+				F4FA96BC278FC15200C1588D /* Solution167.swift */,
+			);
+			path = "167.两数之和 II - 输入有序数组";
+			sourceTree = "<group>";
+		};
+		F4FA96BE278FC15200C1588D /* 168.Excel表列名称 */ = {
+			isa = PBXGroup;
+			children = (
+				F4FA96BF278FC15200C1588D /* Solution168.swift */,
+			);
+			path = "168.Excel表列名称";
+			sourceTree = "<group>";
+		};
+		F4FA96C1278FC15200C1588D /* 169.多数元素 */ = {
+			isa = PBXGroup;
+			children = (
+				F4FA96C2278FC15200C1588D /* Solution169.swift */,
+			);
+			path = "169.多数元素";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -590,6 +623,7 @@
 				F4FA96B7278FBDCC00C1588D /* Solution155.swift in Sources */,
 				F4A4492727634B860093A817 /* main.swift in Sources */,
 				F4898E0E2769F9C200E544AE /* Solution111.swift in Sources */,
+				F4FA96C3278FC15200C1588D /* Solution169.swift in Sources */,
 				F4898DF927698C8200E544AE /* Solution094.swift in Sources */,
 				F48B057527687A820002C01E /* Solution069.swift in Sources */,
 				F4898E022769B9AA00E544AE /* Solution101.swift in Sources */,
@@ -600,6 +634,7 @@
 				F4898DFF276997D800E544AE /* Solution100.swift in Sources */,
 				F4898E11276ADC1D00E544AE /* Solution112.swift in Sources */,
 				F4F471DC2766DE93002B206D /* Stack.swift in Sources */,
+				F4FA96BD278FC15200C1588D /* Solution167.swift in Sources */,
 				F48B0578276888D20002C01E /* Solution070.swift in Sources */,
 				F45AD112278EE11F00A1D8E1 /* Solution144.swift in Sources */,
 				F47F95B9276C2103006A7A4E /* Solution119.swift in Sources */,
@@ -616,6 +651,7 @@
 				F4F47205276718B1002B206D /* Solution028.swift in Sources */,
 				F4F47209276718B1002B206D /* Solution014.swift in Sources */,
 				F4F4720A276718B1002B206D /* Solution013.swift in Sources */,
+				F4FA96C0278FC15200C1588D /* Solution168.swift in Sources */,
 				F45AD10F278EDBF300A1D8E1 /* Solution141.swift in Sources */,
 				F4F47208276718B1002B206D /* Solution027.swift in Sources */,
 				F48B05822768A6510002C01E /* Solution202.swift in Sources */,
