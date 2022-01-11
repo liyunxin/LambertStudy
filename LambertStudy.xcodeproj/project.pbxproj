@@ -53,6 +53,10 @@
 		F4FA96BD278FC15200C1588D /* Solution167.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA96BC278FC15200C1588D /* Solution167.swift */; };
 		F4FA96C0278FC15200C1588D /* Solution168.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA96BF278FC15200C1588D /* Solution168.swift */; };
 		F4FA96C3278FC15200C1588D /* Solution169.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA96C2278FC15200C1588D /* Solution169.swift */; };
+		F4FA96C6278FC15200C1588D /* Solution171.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA96C5278FC15200C1588D /* Solution171.swift */; };
+		F4FA96C9278FC15200C1588D /* Solution190.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA96C8278FC15200C1588D /* Solution190.swift */; };
+		F4FA96CC278FC15200C1588D /* Solution191.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA96CB278FC15200C1588D /* Solution191.swift */; };
+		F4FA96CF278FC15200C1588D /* Solution203.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA96CE278FC15200C1588D /* Solution203.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -115,6 +119,10 @@
 		F4FA96BC278FC15200C1588D /* Solution167.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution167.swift; sourceTree = "<group>"; };
 		F4FA96BF278FC15200C1588D /* Solution168.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution168.swift; sourceTree = "<group>"; };
 		F4FA96C2278FC15200C1588D /* Solution169.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution169.swift; sourceTree = "<group>"; };
+		F4FA96C5278FC15200C1588D /* Solution171.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution171.swift; sourceTree = "<group>"; };
+		F4FA96C8278FC15200C1588D /* Solution190.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution190.swift; sourceTree = "<group>"; };
+		F4FA96CB278FC15200C1588D /* Solution191.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution191.swift; sourceTree = "<group>"; };
+		F4FA96CE278FC15200C1588D /* Solution203.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution203.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +215,9 @@
 				F4FA96BB278FC15200C1588D /* 167.两数之和 II - 输入有序数组 */,
 				F4FA96BE278FC15200C1588D /* 168.Excel表列名称 */,
 				F4FA96C1278FC15200C1588D /* 169.多数元素 */,
+				F4FA96C4278FC15200C1588D /* 171.Excel 表列序号 */,
+				F4FA96C7278FC15200C1588D /* 190.颠倒二进制位 */,
+				F4FA96CA278FC15200C1588D /* 191.位1的个数 */,
 			);
 			path = "100-199";
 			sourceTree = "<group>";
@@ -343,6 +354,7 @@
 			isa = PBXGroup;
 			children = (
 				F48B05802768A6430002C01E /* 202.快乐数 */,
+				F4FA96CD278FC15200C1588D /* 203.移除链表元素 */,
 			);
 			path = "200-299";
 			sourceTree = "<group>";
@@ -557,6 +569,38 @@
 			path = "169.多数元素";
 			sourceTree = "<group>";
 		};
+		F4FA96C4278FC15200C1588D /* 171.Excel 表列序号 */ = {
+			isa = PBXGroup;
+			children = (
+				F4FA96C5278FC15200C1588D /* Solution171.swift */,
+			);
+			path = "171.Excel 表列序号";
+			sourceTree = "<group>";
+		};
+		F4FA96C7278FC15200C1588D /* 190.颠倒二进制位 */ = {
+			isa = PBXGroup;
+			children = (
+				F4FA96C8278FC15200C1588D /* Solution190.swift */,
+			);
+			path = "190.颠倒二进制位";
+			sourceTree = "<group>";
+		};
+		F4FA96CA278FC15200C1588D /* 191.位1的个数 */ = {
+			isa = PBXGroup;
+			children = (
+				F4FA96CB278FC15200C1588D /* Solution191.swift */,
+			);
+			path = "191.位1的个数";
+			sourceTree = "<group>";
+		};
+		F4FA96CD278FC15200C1588D /* 203.移除链表元素 */ = {
+			isa = PBXGroup;
+			children = (
+				F4FA96CE278FC15200C1588D /* Solution203.swift */,
+			);
+			path = "203.移除链表元素";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -617,9 +661,11 @@
 				F48B056C27684C8F0002C01E /* Solution058.swift in Sources */,
 				F4F47202276718B1002B206D /* Solution007.swift in Sources */,
 				F48B0569276843160002C01E /* Solution053.swift in Sources */,
+				F4FA96C9278FC15200C1588D /* Solution190.swift in Sources */,
 				F45AD10C278ED83C00A1D8E1 /* Solution136.swift in Sources */,
 				F4FA96B4278FBA5300C1588D /* Solution145.swift in Sources */,
 				F4898DFB27698CEB00E544AE /* TreeNode.swift in Sources */,
+				F4FA96CC278FC15200C1588D /* Solution191.swift in Sources */,
 				F4FA96B7278FBDCC00C1588D /* Solution155.swift in Sources */,
 				F4A4492727634B860093A817 /* main.swift in Sources */,
 				F4898E0E2769F9C200E544AE /* Solution111.swift in Sources */,
@@ -630,6 +676,7 @@
 				F4F47206276718B1002B206D /* Solution021.swift in Sources */,
 				F4F47203276718B1002B206D /* Solution026.swift in Sources */,
 				F4898E082769DB7500E544AE /* Solution108.swift in Sources */,
+				F4FA96CF278FC15200C1588D /* Solution203.swift in Sources */,
 				F4F47204276718B1002B206D /* Solution020.swift in Sources */,
 				F4898DFF276997D800E544AE /* Solution100.swift in Sources */,
 				F4898E11276ADC1D00E544AE /* Solution112.swift in Sources */,
@@ -651,6 +698,7 @@
 				F4F47205276718B1002B206D /* Solution028.swift in Sources */,
 				F4F47209276718B1002B206D /* Solution014.swift in Sources */,
 				F4F4720A276718B1002B206D /* Solution013.swift in Sources */,
+				F4FA96C6278FC15200C1588D /* Solution171.swift in Sources */,
 				F4FA96C0278FC15200C1588D /* Solution168.swift in Sources */,
 				F45AD10F278EDBF300A1D8E1 /* Solution141.swift in Sources */,
 				F4F47208276718B1002B206D /* Solution027.swift in Sources */,
