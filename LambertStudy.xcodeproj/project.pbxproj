@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40A5CA62786E5ED00339D29 /* Solution125.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A5CA52786E5ED00339D29 /* Solution125.swift */; };
 		F47F95B9276C2103006A7A4E /* Solution119.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F95B8276C2103006A7A4E /* Solution119.swift */; };
 		F47F95BC276C2238006A7A4E /* Solution121.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F95BB276C2238006A7A4E /* Solution121.swift */; };
 		F4898DF927698C8200E544AE /* Solution094.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4898DF827698C8200E544AE /* Solution094.swift */; };
@@ -58,6 +59,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F40A5CA52786E5ED00339D29 /* Solution125.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution125.swift; sourceTree = "<group>"; };
 		F47F95B8276C2103006A7A4E /* Solution119.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution119.swift; sourceTree = "<group>"; };
 		F47F95BB276C2238006A7A4E /* Solution121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution121.swift; sourceTree = "<group>"; };
 		F4898DF827698C8200E544AE /* Solution094.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution094.swift; sourceTree = "<group>"; };
@@ -108,6 +110,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F40A5CA42786E5E300339D29 /* 125.验证回文串 */ = {
+			isa = PBXGroup;
+			children = (
+				F40A5CA52786E5ED00339D29 /* Solution125.swift */,
+			);
+			path = "125.验证回文串";
+			sourceTree = "<group>";
+		};
 		F47F95B7276C20F4006A7A4E /* 119.杨辉三角II */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +155,7 @@
 				F4898E12276AE03200E544AE /* 118.杨辉三角 */,
 				F47F95B7276C20F4006A7A4E /* 119.杨辉三角II */,
 				F47F95BA276C2228006A7A4E /* 121.买卖股票的最佳时机 */,
+				F40A5CA42786E5E300339D29 /* 125.验证回文串 */,
 			);
 			path = "100-199";
 			sourceTree = "<group>";
@@ -540,6 +551,7 @@
 				F47F95BC276C2238006A7A4E /* Solution121.swift in Sources */,
 				F4F471DE2766E3DB002B206D /* ListNode.swift in Sources */,
 				F48B056F276868000002C01E /* Solution066.swift in Sources */,
+				F40A5CA62786E5ED00339D29 /* Solution125.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

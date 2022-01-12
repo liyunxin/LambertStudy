@@ -18,15 +18,20 @@ class Solution121 : Solution {
     }
     
     func maxProfit(_ prices: [Int]) -> Int {
-        var sum:Int = 0
-        var day:Int = 0
-        while day < prices.count {
-            let price:Int = prices[day]
-            sum += price
-            print("\(day) - \(price) - \(sum)")
-            day += 1
+        var min:Int = prices[0]
+        var max:Int = 0
+        for index in 1..<prices.count {
+            let price = prices[index]
+            if price - min > max {
+                //记录最大利润
+                max = prices[index] - min
+            }
+            if price < min {
+                //找到最低价
+                min = price
+            }
+            print("min = \(min), max = \(max)")
         }
-        
-        return 666
+        return max
     }
 }
