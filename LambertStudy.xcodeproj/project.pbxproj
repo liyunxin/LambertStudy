@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		F40A5CA62786E5ED00339D29 /* Solution125.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A5CA52786E5ED00339D29 /* Solution125.swift */; };
 		F45AD10C278ED83C00A1D8E1 /* Solution136.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AD10B278ED83C00A1D8E1 /* Solution136.swift */; };
+		F45AD10F278EDBF300A1D8E1 /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AD10E278EDBF300A1D8E1 /* Solution141.swift */; };
+		F45AD112278EE11F00A1D8E1 /* Solution144.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AD111278EE11F00A1D8E1 /* Solution144.swift */; };
 		F47F95B9276C2103006A7A4E /* Solution119.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F95B8276C2103006A7A4E /* Solution119.swift */; };
 		F47F95BC276C2238006A7A4E /* Solution121.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F95BB276C2238006A7A4E /* Solution121.swift */; };
 		F4898DF927698C8200E544AE /* Solution094.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4898DF827698C8200E544AE /* Solution094.swift */; };
@@ -62,6 +64,8 @@
 /* Begin PBXFileReference section */
 		F40A5CA52786E5ED00339D29 /* Solution125.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution125.swift; sourceTree = "<group>"; };
 		F45AD10B278ED83C00A1D8E1 /* Solution136.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution136.swift; sourceTree = "<group>"; };
+		F45AD10E278EDBF300A1D8E1 /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
+		F45AD111278EE11F00A1D8E1 /* Solution144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution144.swift; sourceTree = "<group>"; };
 		F47F95B8276C2103006A7A4E /* Solution119.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution119.swift; sourceTree = "<group>"; };
 		F47F95BB276C2238006A7A4E /* Solution121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution121.swift; sourceTree = "<group>"; };
 		F4898DF827698C8200E544AE /* Solution094.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution094.swift; sourceTree = "<group>"; };
@@ -128,6 +132,22 @@
 			path = "136.只出现一次的数字";
 			sourceTree = "<group>";
 		};
+		F45AD10D278EDBE800A1D8E1 /* 141.环形链表 */ = {
+			isa = PBXGroup;
+			children = (
+				F45AD10E278EDBF300A1D8E1 /* Solution141.swift */,
+			);
+			path = "141.环形链表";
+			sourceTree = "<group>";
+		};
+		F45AD110278EE10E00A1D8E1 /* 144.二叉树的前序遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				F45AD111278EE11F00A1D8E1 /* Solution144.swift */,
+			);
+			path = "144.二叉树的前序遍历";
+			sourceTree = "<group>";
+		};
 		F47F95B7276C20F4006A7A4E /* 119.杨辉三角II */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +187,8 @@
 				F47F95BA276C2228006A7A4E /* 121.买卖股票的最佳时机 */,
 				F40A5CA42786E5E300339D29 /* 125.验证回文串 */,
 				F45AD10A278ED83000A1D8E1 /* 136.只出现一次的数字 */,
+				F45AD10D278EDBE800A1D8E1 /* 141.环形链表 */,
+				F45AD110278EE10E00A1D8E1 /* 144.二叉树的前序遍历 */,
 			);
 			path = "100-199";
 			sourceTree = "<group>";
@@ -544,6 +566,7 @@
 				F4898E11276ADC1D00E544AE /* Solution112.swift in Sources */,
 				F4F471DC2766DE93002B206D /* Stack.swift in Sources */,
 				F48B0578276888D20002C01E /* Solution070.swift in Sources */,
+				F45AD112278EE11F00A1D8E1 /* Solution144.swift in Sources */,
 				F47F95B9276C2103006A7A4E /* Solution119.swift in Sources */,
 				F4A44931276358030093A817 /* Solution.swift in Sources */,
 				F48B057227686BBE0002C01E /* Solution067.swift in Sources */,
@@ -558,6 +581,7 @@
 				F4F47205276718B1002B206D /* Solution028.swift in Sources */,
 				F4F47209276718B1002B206D /* Solution014.swift in Sources */,
 				F4F4720A276718B1002B206D /* Solution013.swift in Sources */,
+				F45AD10F278EDBF300A1D8E1 /* Solution141.swift in Sources */,
 				F4F47208276718B1002B206D /* Solution027.swift in Sources */,
 				F48B05822768A6510002C01E /* Solution202.swift in Sources */,
 				F47F95BC276C2238006A7A4E /* Solution121.swift in Sources */,
