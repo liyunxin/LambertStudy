@@ -11,6 +11,10 @@
 		F45AD10C278ED83C00A1D8E1 /* Solution136.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AD10B278ED83C00A1D8E1 /* Solution136.swift */; };
 		F45AD10F278EDBF300A1D8E1 /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AD10E278EDBF300A1D8E1 /* Solution141.swift */; };
 		F45AD112278EE11F00A1D8E1 /* Solution144.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AD111278EE11F00A1D8E1 /* Solution144.swift */; };
+		F47DC195278E6FDF00BAED33 /* Solution205.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47DC194278E6FDF00BAED33 /* Solution205.swift */; };
+		F47DC198278E758500BAED33 /* Solution206.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47DC197278E758500BAED33 /* Solution206.swift */; };
+		F47DC19B278E798100BAED33 /* Solution217.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47DC19A278E798100BAED33 /* Solution217.swift */; };
+		F47DC19E278E7B8200BAED33 /* Solution219.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47DC19D278E7B8200BAED33 /* Solution219.swift */; };
 		F47F95B9276C2103006A7A4E /* Solution119.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F95B8276C2103006A7A4E /* Solution119.swift */; };
 		F47F95BC276C2238006A7A4E /* Solution121.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F95BB276C2238006A7A4E /* Solution121.swift */; };
 		F4898DF927698C8200E544AE /* Solution094.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4898DF827698C8200E544AE /* Solution094.swift */; };
@@ -76,6 +80,10 @@
 		F45AD10B278ED83C00A1D8E1 /* Solution136.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution136.swift; sourceTree = "<group>"; };
 		F45AD10E278EDBF300A1D8E1 /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
 		F45AD111278EE11F00A1D8E1 /* Solution144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution144.swift; sourceTree = "<group>"; };
+		F47DC194278E6FDF00BAED33 /* Solution205.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution205.swift; sourceTree = "<group>"; };
+		F47DC197278E758500BAED33 /* Solution206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution206.swift; sourceTree = "<group>"; };
+		F47DC19A278E798100BAED33 /* Solution217.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution217.swift; sourceTree = "<group>"; };
+		F47DC19D278E7B8200BAED33 /* Solution219.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution219.swift; sourceTree = "<group>"; };
 		F47F95B8276C2103006A7A4E /* Solution119.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution119.swift; sourceTree = "<group>"; };
 		F47F95BB276C2238006A7A4E /* Solution121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution121.swift; sourceTree = "<group>"; };
 		F4898DF827698C8200E544AE /* Solution094.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution094.swift; sourceTree = "<group>"; };
@@ -166,6 +174,38 @@
 				F45AD111278EE11F00A1D8E1 /* Solution144.swift */,
 			);
 			path = "144.二叉树的前序遍历";
+			sourceTree = "<group>";
+		};
+		F47DC193278E6FD200BAED33 /* 205.同构字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				F47DC194278E6FDF00BAED33 /* Solution205.swift */,
+			);
+			path = "205.同构字符串";
+			sourceTree = "<group>";
+		};
+		F47DC196278E757800BAED33 /* 206.反转链表 */ = {
+			isa = PBXGroup;
+			children = (
+				F47DC197278E758500BAED33 /* Solution206.swift */,
+			);
+			path = "206.反转链表";
+			sourceTree = "<group>";
+		};
+		F47DC199278E797500BAED33 /* 217.存在重复元素 */ = {
+			isa = PBXGroup;
+			children = (
+				F47DC19A278E798100BAED33 /* Solution217.swift */,
+			);
+			path = "217.存在重复元素";
+			sourceTree = "<group>";
+		};
+		F47DC19C278E7B7400BAED33 /* 219.存在重复元素 II */ = {
+			isa = PBXGroup;
+			children = (
+				F47DC19D278E7B8200BAED33 /* Solution219.swift */,
+			);
+			path = "219.存在重复元素 II";
 			sourceTree = "<group>";
 		};
 		F47F95B7276C20F4006A7A4E /* 119.杨辉三角II */ = {
@@ -355,6 +395,10 @@
 			children = (
 				F48B05802768A6430002C01E /* 202.快乐数 */,
 				F4FA96CD278FC15200C1588D /* 203.移除链表元素 */,
+				F47DC193278E6FD200BAED33 /* 205.同构字符串 */,
+				F47DC196278E757800BAED33 /* 206.反转链表 */,
+				F47DC199278E797500BAED33 /* 217.存在重复元素 */,
+				F47DC19C278E7B7400BAED33 /* 219.存在重复元素 II */,
 			);
 			path = "200-299";
 			sourceTree = "<group>";
@@ -659,6 +703,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F48B056C27684C8F0002C01E /* Solution058.swift in Sources */,
+				F47DC198278E758500BAED33 /* Solution206.swift in Sources */,
 				F4F47202276718B1002B206D /* Solution007.swift in Sources */,
 				F48B0569276843160002C01E /* Solution053.swift in Sources */,
 				F4FA96C9278FC15200C1588D /* Solution190.swift in Sources */,
@@ -682,6 +727,7 @@
 				F4898E11276ADC1D00E544AE /* Solution112.swift in Sources */,
 				F4F471DC2766DE93002B206D /* Stack.swift in Sources */,
 				F4FA96BD278FC15200C1588D /* Solution167.swift in Sources */,
+				F47DC19E278E7B8200BAED33 /* Solution219.swift in Sources */,
 				F48B0578276888D20002C01E /* Solution070.swift in Sources */,
 				F45AD112278EE11F00A1D8E1 /* Solution144.swift in Sources */,
 				F47F95B9276C2103006A7A4E /* Solution119.swift in Sources */,
@@ -693,10 +739,12 @@
 				F48FA11427675523009A01B7 /* Solution035.swift in Sources */,
 				F4898E0B2769EC0200E544AE /* Solution110.swift in Sources */,
 				F4F47201276718B1002B206D /* Solution009.swift in Sources */,
+				F47DC19B278E798100BAED33 /* Solution217.swift in Sources */,
 				F4898E14276AE04400E544AE /* Solution118.swift in Sources */,
 				F48B057B276890CC0002C01E /* Solution080.swift in Sources */,
 				F4F47205276718B1002B206D /* Solution028.swift in Sources */,
 				F4F47209276718B1002B206D /* Solution014.swift in Sources */,
+				F47DC195278E6FDF00BAED33 /* Solution205.swift in Sources */,
 				F4F4720A276718B1002B206D /* Solution013.swift in Sources */,
 				F4FA96C6278FC15200C1588D /* Solution171.swift in Sources */,
 				F4FA96C0278FC15200C1588D /* Solution168.swift in Sources */,
