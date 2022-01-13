@@ -4,6 +4,7 @@
 //
 //  Created by Lambert on 2022/1/12.
 //
+//  前序遍历：根 - 左 - 右
 
 import Foundation
 

@@ -47,6 +47,7 @@
 		F4F47208276718B1002B206D /* Solution027.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F471FC276718B1002B206D /* Solution027.swift */; };
 		F4F47209276718B1002B206D /* Solution014.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F471FE276718B1002B206D /* Solution014.swift */; };
 		F4F4720A276718B1002B206D /* Solution013.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F47200276718B1002B206D /* Solution013.swift */; };
+		F4FA96B4278FBA5300C1588D /* Solution145.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FA96B3278FBA5300C1588D /* Solution145.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -103,6 +104,7 @@
 		F4F471FC276718B1002B206D /* Solution027.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution027.swift; sourceTree = "<group>"; };
 		F4F471FE276718B1002B206D /* Solution014.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution014.swift; sourceTree = "<group>"; };
 		F4F47200276718B1002B206D /* Solution013.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution013.swift; sourceTree = "<group>"; };
+		F4FA96B3278FBA5300C1588D /* Solution145.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution145.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 				F45AD10A278ED83000A1D8E1 /* 136.只出现一次的数字 */,
 				F45AD10D278EDBE800A1D8E1 /* 141.环形链表 */,
 				F45AD110278EE10E00A1D8E1 /* 144.二叉树的前序遍历 */,
+				F4FA96B2278FBA4500C1588D /* 145.二叉树的后序遍历 */,
 			);
 			path = "100-199";
 			sourceTree = "<group>";
@@ -491,6 +494,14 @@
 			path = "013.罗马数字转整数";
 			sourceTree = "<group>";
 		};
+		F4FA96B2278FBA4500C1588D /* 145.二叉树的后序遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				F4FA96B3278FBA5300C1588D /* Solution145.swift */,
+			);
+			path = "145.二叉树的后序遍历";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -552,6 +563,7 @@
 				F4F47202276718B1002B206D /* Solution007.swift in Sources */,
 				F48B0569276843160002C01E /* Solution053.swift in Sources */,
 				F45AD10C278ED83C00A1D8E1 /* Solution136.swift in Sources */,
+				F4FA96B4278FBA5300C1588D /* Solution145.swift in Sources */,
 				F4898DFB27698CEB00E544AE /* TreeNode.swift in Sources */,
 				F4A4492727634B860093A817 /* main.swift in Sources */,
 				F4898E0E2769F9C200E544AE /* Solution111.swift in Sources */,
