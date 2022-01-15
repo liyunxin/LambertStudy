@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F40A5CA62786E5ED00339D29 /* Solution125.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A5CA52786E5ED00339D29 /* Solution125.swift */; };
+		F40C956E279299B700A9A33D /* Solution231.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40C956D279299B700A9A33D /* Solution231.swift */; };
+		F40C95712792A51300A9A33D /* Solution232.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40C95702792A51300A9A33D /* Solution232.swift */; };
 		F45AD10C278ED83C00A1D8E1 /* Solution136.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AD10B278ED83C00A1D8E1 /* Solution136.swift */; };
 		F45AD10F278EDBF300A1D8E1 /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AD10E278EDBF300A1D8E1 /* Solution141.swift */; };
 		F45AD112278EE11F00A1D8E1 /* Solution144.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AD111278EE11F00A1D8E1 /* Solution144.swift */; };
@@ -19,6 +21,7 @@
 		F47DC19E278E7B8200BAED33 /* Solution219.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47DC19D278E7B8200BAED33 /* Solution219.swift */; };
 		F47F95B9276C2103006A7A4E /* Solution119.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F95B8276C2103006A7A4E /* Solution119.swift */; };
 		F47F95BC276C2238006A7A4E /* Solution121.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F95BB276C2238006A7A4E /* Solution121.swift */; };
+		F4855F612791095800B1F510 /* Solution228.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4855F602791095800B1F510 /* Solution228.swift */; };
 		F4898DF927698C8200E544AE /* Solution094.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4898DF827698C8200E544AE /* Solution094.swift */; };
 		F4898DFB27698CEB00E544AE /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4898DFA27698CEB00E544AE /* TreeNode.swift */; };
 		F4898DFF276997D800E544AE /* Solution100.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4898DFE276997D800E544AE /* Solution100.swift */; };
@@ -79,6 +82,8 @@
 
 /* Begin PBXFileReference section */
 		F40A5CA52786E5ED00339D29 /* Solution125.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution125.swift; sourceTree = "<group>"; };
+		F40C956D279299B700A9A33D /* Solution231.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution231.swift; sourceTree = "<group>"; };
+		F40C95702792A51300A9A33D /* Solution232.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution232.swift; sourceTree = "<group>"; };
 		F45AD10B278ED83C00A1D8E1 /* Solution136.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution136.swift; sourceTree = "<group>"; };
 		F45AD10E278EDBF300A1D8E1 /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
 		F45AD111278EE11F00A1D8E1 /* Solution144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution144.swift; sourceTree = "<group>"; };
@@ -90,6 +95,7 @@
 		F47DC19D278E7B8200BAED33 /* Solution219.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution219.swift; sourceTree = "<group>"; };
 		F47F95B8276C2103006A7A4E /* Solution119.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution119.swift; sourceTree = "<group>"; };
 		F47F95BB276C2238006A7A4E /* Solution121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution121.swift; sourceTree = "<group>"; };
+		F4855F602791095800B1F510 /* Solution228.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution228.swift; sourceTree = "<group>"; };
 		F4898DF827698C8200E544AE /* Solution094.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution094.swift; sourceTree = "<group>"; };
 		F4898DFA27698CEB00E544AE /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		F4898DFE276997D800E544AE /* Solution100.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution100.swift; sourceTree = "<group>"; };
@@ -154,6 +160,22 @@
 				F40A5CA52786E5ED00339D29 /* Solution125.swift */,
 			);
 			path = "125.验证回文串";
+			sourceTree = "<group>";
+		};
+		F40C956C279299AA00A9A33D /* 231.2的幂 */ = {
+			isa = PBXGroup;
+			children = (
+				F40C956D279299B700A9A33D /* Solution231.swift */,
+			);
+			path = "231.2的幂";
+			sourceTree = "<group>";
+		};
+		F40C956F2792A50600A9A33D /* 232.用栈实现队列 */ = {
+			isa = PBXGroup;
+			children = (
+				F40C95702792A51300A9A33D /* Solution232.swift */,
+			);
+			path = "232.用栈实现队列";
 			sourceTree = "<group>";
 		};
 		F45AD10A278ED83000A1D8E1 /* 136.只出现一次的数字 */ = {
@@ -242,6 +264,14 @@
 				F47F95BB276C2238006A7A4E /* Solution121.swift */,
 			);
 			path = "121.买卖股票的最佳时机";
+			sourceTree = "<group>";
+		};
+		F4855F5F2791094600B1F510 /* 228.汇总区间 */ = {
+			isa = PBXGroup;
+			children = (
+				F4855F602791095800B1F510 /* Solution228.swift */,
+			);
+			path = "228.汇总区间";
 			sourceTree = "<group>";
 		};
 		F4898DF727698B7F00E544AE /* 094.二叉树的中序遍历 */ = {
@@ -421,6 +451,9 @@
 				F47DC19C278E7B7400BAED33 /* 219.存在重复元素 II */,
 				F47C4CA8279002030000756C /* 225.用队列实现栈 */,
 				F47C4CAB279002840000756C /* 226.翻转二叉树 */,
+				F4855F5F2791094600B1F510 /* 228.汇总区间 */,
+				F40C956C279299AA00A9A33D /* 231.2的幂 */,
+				F40C956F2792A50600A9A33D /* 232.用栈实现队列 */,
 			);
 			path = "200-299";
 			sourceTree = "<group>";
@@ -753,6 +786,7 @@
 				F47DC19E278E7B8200BAED33 /* Solution219.swift in Sources */,
 				F48B0578276888D20002C01E /* Solution070.swift in Sources */,
 				F45AD112278EE11F00A1D8E1 /* Solution144.swift in Sources */,
+				F4855F612791095800B1F510 /* Solution228.swift in Sources */,
 				F47F95B9276C2103006A7A4E /* Solution119.swift in Sources */,
 				F4A44931276358030093A817 /* Solution.swift in Sources */,
 				F48B057227686BBE0002C01E /* Solution067.swift in Sources */,
@@ -768,9 +802,11 @@
 				F4F47205276718B1002B206D /* Solution028.swift in Sources */,
 				F4F47209276718B1002B206D /* Solution014.swift in Sources */,
 				F47C4CAD279002910000756C /* Solution226.swift in Sources */,
+				F40C956E279299B700A9A33D /* Solution231.swift in Sources */,
 				F47DC195278E6FDF00BAED33 /* Solution205.swift in Sources */,
 				F4F4720A276718B1002B206D /* Solution013.swift in Sources */,
 				F4FA96C6278FC15200C1588D /* Solution171.swift in Sources */,
+				F40C95712792A51300A9A33D /* Solution232.swift in Sources */,
 				F4FA96C0278FC15200C1588D /* Solution168.swift in Sources */,
 				F45AD10F278EDBF300A1D8E1 /* Solution141.swift in Sources */,
 				F4F47208276718B1002B206D /* Solution027.swift in Sources */,
