@@ -10,6 +10,7 @@
 		F40A5CA62786E5ED00339D29 /* Solution125.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A5CA52786E5ED00339D29 /* Solution125.swift */; };
 		F40C956E279299B700A9A33D /* Solution231.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40C956D279299B700A9A33D /* Solution231.swift */; };
 		F40C95712792A51300A9A33D /* Solution232.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40C95702792A51300A9A33D /* Solution232.swift */; };
+		F43925E52795493100ACD0B5 /* Solution234.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43925E42795493100ACD0B5 /* Solution234.swift */; };
 		F45AD10C278ED83C00A1D8E1 /* Solution136.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AD10B278ED83C00A1D8E1 /* Solution136.swift */; };
 		F45AD10F278EDBF300A1D8E1 /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AD10E278EDBF300A1D8E1 /* Solution141.swift */; };
 		F45AD112278EE11F00A1D8E1 /* Solution144.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45AD111278EE11F00A1D8E1 /* Solution144.swift */; };
@@ -84,6 +85,7 @@
 		F40A5CA52786E5ED00339D29 /* Solution125.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution125.swift; sourceTree = "<group>"; };
 		F40C956D279299B700A9A33D /* Solution231.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution231.swift; sourceTree = "<group>"; };
 		F40C95702792A51300A9A33D /* Solution232.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution232.swift; sourceTree = "<group>"; };
+		F43925E42795493100ACD0B5 /* Solution234.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution234.swift; sourceTree = "<group>"; };
 		F45AD10B278ED83C00A1D8E1 /* Solution136.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution136.swift; sourceTree = "<group>"; };
 		F45AD10E278EDBF300A1D8E1 /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
 		F45AD111278EE11F00A1D8E1 /* Solution144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution144.swift; sourceTree = "<group>"; };
@@ -176,6 +178,14 @@
 				F40C95702792A51300A9A33D /* Solution232.swift */,
 			);
 			path = "232.用栈实现队列";
+			sourceTree = "<group>";
+		};
+		F43925E32795492500ACD0B5 /* 234.回文链表 */ = {
+			isa = PBXGroup;
+			children = (
+				F43925E42795493100ACD0B5 /* Solution234.swift */,
+			);
+			path = "234.回文链表";
 			sourceTree = "<group>";
 		};
 		F45AD10A278ED83000A1D8E1 /* 136.只出现一次的数字 */ = {
@@ -454,6 +464,7 @@
 				F4855F5F2791094600B1F510 /* 228.汇总区间 */,
 				F40C956C279299AA00A9A33D /* 231.2的幂 */,
 				F40C956F2792A50600A9A33D /* 232.用栈实现队列 */,
+				F43925E32795492500ACD0B5 /* 234.回文链表 */,
 			);
 			path = "200-299";
 			sourceTree = "<group>";
@@ -795,6 +806,7 @@
 				F4898E052769D51200E544AE /* Solution104.swift in Sources */,
 				F48FA11427675523009A01B7 /* Solution035.swift in Sources */,
 				F4898E0B2769EC0200E544AE /* Solution110.swift in Sources */,
+				F43925E52795493100ACD0B5 /* Solution234.swift in Sources */,
 				F4F47201276718B1002B206D /* Solution009.swift in Sources */,
 				F47DC19B278E798100BAED33 /* Solution217.swift in Sources */,
 				F4898E14276AE04400E544AE /* Solution118.swift in Sources */,
