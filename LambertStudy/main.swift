@@ -59,5 +59,7 @@ import Foundation
 //Solution231().fire()
 //Solution232().fire()
 //Solution234().fire()
-Solution235().fire()
+//Solution235().fire()
 //Solution237().fire()
+//Solution242().fire()
+Solution257().fire()

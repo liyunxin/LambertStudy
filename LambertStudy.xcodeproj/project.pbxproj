@@ -10,6 +10,7 @@
 		F40A5CA62786E5ED00339D29 /* Solution125.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40A5CA52786E5ED00339D29 /* Solution125.swift */; };
 		F40C956E279299B700A9A33D /* Solution231.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40C956D279299B700A9A33D /* Solution231.swift */; };
 		F40C95712792A51300A9A33D /* Solution232.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40C95702792A51300A9A33D /* Solution232.swift */; };
+		F426D8C827995E580082381D /* Solution242.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426D8C727995E580082381D /* Solution242.swift */; };
 		F42E76872797DCDA0010B5E8 /* Solution237.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E76862797DCDA0010B5E8 /* Solution237.swift */; };
 		F42E768A2797DDBE0010B5E8 /* Solution235.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E76892797DDBE0010B5E8 /* Solution235.swift */; };
 		F43925E52795493100ACD0B5 /* Solution234.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43925E42795493100ACD0B5 /* Solution234.swift */; };
@@ -45,6 +46,7 @@
 		F48B057E27689A4E0002C01E /* Solution088.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B057D27689A4E0002C01E /* Solution088.swift */; };
 		F48B05822768A6510002C01E /* Solution202.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48B05812768A6510002C01E /* Solution202.swift */; };
 		F48FA11427675523009A01B7 /* Solution035.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48FA11327675523009A01B7 /* Solution035.swift */; };
+		F494748527D6025100A4469B /* Solution257.swift in Sources */ = {isa = PBXBuildFile; fileRef = F494748427D6025100A4469B /* Solution257.swift */; };
 		F4A4492727634B860093A817 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A4492627634B860093A817 /* main.swift */; };
 		F4A44931276358030093A817 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A44930276358030093A817 /* Solution.swift */; };
 		F4F471DC2766DE93002B206D /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F471DB2766DE93002B206D /* Stack.swift */; };
@@ -87,6 +89,7 @@
 		F40A5CA52786E5ED00339D29 /* Solution125.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution125.swift; sourceTree = "<group>"; };
 		F40C956D279299B700A9A33D /* Solution231.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution231.swift; sourceTree = "<group>"; };
 		F40C95702792A51300A9A33D /* Solution232.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution232.swift; sourceTree = "<group>"; };
+		F426D8C727995E580082381D /* Solution242.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution242.swift; sourceTree = "<group>"; };
 		F42E76862797DCDA0010B5E8 /* Solution237.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution237.swift; sourceTree = "<group>"; };
 		F42E76892797DDBE0010B5E8 /* Solution235.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution235.swift; sourceTree = "<group>"; };
 		F43925E42795493100ACD0B5 /* Solution234.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution234.swift; sourceTree = "<group>"; };
@@ -122,6 +125,7 @@
 		F48B057D27689A4E0002C01E /* Solution088.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution088.swift; sourceTree = "<group>"; };
 		F48B05812768A6510002C01E /* Solution202.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution202.swift; sourceTree = "<group>"; };
 		F48FA11327675523009A01B7 /* Solution035.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution035.swift; sourceTree = "<group>"; };
+		F494748427D6025100A4469B /* Solution257.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution257.swift; sourceTree = "<group>"; };
 		F4A4492327634B860093A817 /* LambertStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LambertStudy; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A4492627634B860093A817 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F4A44930276358030093A817 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
@@ -182,6 +186,14 @@
 				F40C95702792A51300A9A33D /* Solution232.swift */,
 			);
 			path = "232.用栈实现队列";
+			sourceTree = "<group>";
+		};
+		F426D8C627995E020082381D /* 242.有效的字母异位词 */ = {
+			isa = PBXGroup;
+			children = (
+				F426D8C727995E580082381D /* Solution242.swift */,
+			);
+			path = "242.有效的字母异位词";
 			sourceTree = "<group>";
 		};
 		F42E76852797DCC80010B5E8 /* 237.删除链表中的节点 */ = {
@@ -487,6 +499,8 @@
 				F43925E32795492500ACD0B5 /* 234.回文链表 */,
 				F42E76882797DDB10010B5E8 /* 235.二叉搜索树的最近公共祖先 */,
 				F42E76852797DCC80010B5E8 /* 237.删除链表中的节点 */,
+				F426D8C627995E020082381D /* 242.有效的字母异位词 */,
+				F494748327D6023D00A4469B /* 257.二叉树的所有路径 */,
 			);
 			path = "200-299";
 			sourceTree = "<group>";
@@ -505,6 +519,14 @@
 				F48FA11327675523009A01B7 /* Solution035.swift */,
 			);
 			path = "035.搜索插入位置";
+			sourceTree = "<group>";
+		};
+		F494748327D6023D00A4469B /* 257.二叉树的所有路径 */ = {
+			isa = PBXGroup;
+			children = (
+				F494748427D6025100A4469B /* Solution257.swift */,
+			);
+			path = "257.二叉树的所有路径";
 			sourceTree = "<group>";
 		};
 		F4A4491A27634B860093A817 = {
@@ -760,7 +782,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					F4A4492227634B860093A817 = {
 						CreatedOnToolsVersion = 12.5;
@@ -811,6 +833,7 @@
 				F4F47203276718B1002B206D /* Solution026.swift in Sources */,
 				F4898E082769DB7500E544AE /* Solution108.swift in Sources */,
 				F4FA96CF278FC15200C1588D /* Solution203.swift in Sources */,
+				F426D8C827995E580082381D /* Solution242.swift in Sources */,
 				F4F47204276718B1002B206D /* Solution020.swift in Sources */,
 				F4898DFF276997D800E544AE /* Solution100.swift in Sources */,
 				F4898E11276ADC1D00E544AE /* Solution112.swift in Sources */,
@@ -828,6 +851,7 @@
 				F48B057E27689A4E0002C01E /* Solution088.swift in Sources */,
 				F4898E052769D51200E544AE /* Solution104.swift in Sources */,
 				F48FA11427675523009A01B7 /* Solution035.swift in Sources */,
+				F494748527D6025100A4469B /* Solution257.swift in Sources */,
 				F4898E0B2769EC0200E544AE /* Solution110.swift in Sources */,
 				F43925E52795493100ACD0B5 /* Solution234.swift in Sources */,
 				F4F47201276718B1002B206D /* Solution009.swift in Sources */,
@@ -976,6 +1000,7 @@
 		F4A4492B27634B860093A817 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -985,6 +1010,7 @@
 		F4A4492C27634B860093A817 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
