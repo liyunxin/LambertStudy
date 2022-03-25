@@ -1,5 +1,5 @@
 //
-//  Solution349.swift
+//  Solution350.swift
 //  LambertStudy
 //
 //  Created by Lambert on 2022/3/24.
@@ -7,33 +7,19 @@
 
 import Foundation
 
-class Solution349 : Solution {
+class Solution350 : Solution {
     override func logStr() -> String {
-        return "349.两个数组的交集"
+        return "350.两个数组的交集II"
     }
     
     override func example() {
-        let num1:[Int] = [4, 9, 5]
+        let num1:[Int] = [4, 9, 5, 4]
         let num2:[Int] = [9, 4, 9, 8, 4]
-        print("结果1：\(self.intersection(num1, num2))")
-        print("结果2：\(self.intersection2(num1, num2))")
-    }
-    
-    //暴力循环法
-    func intersection(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
-        var sumList:[Int] = []
-        nums1.forEach { num1 in
-            if nums2.contains(num1) {
-                if sumList.contains(num1) == false {
-                    sumList.append(num1)
-                }
-            }
-        }
-        return sumList
+        print("结果1：\(self.intersect(num1, num2))")
     }
     
     //排序 + 双指针
-    func intersection2(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
+    func intersect(_ nums1: [Int], _ nums2: [Int]) -> [Int] {
         let numList1 = nums1.sorted { return $0 < $1 }
         let numList2 = nums2.sorted { return $0 < $1 }
         var sumList:[Int] = []
@@ -54,10 +40,6 @@ class Solution349 : Solution {
             }
         }
         
-        var uniq = Set<Int>()
-        uniq.reserveCapacity(sumList.count)
-        return sumList.filter {
-            return uniq.insert($0).inserted
-        }
+        return sumList
     }
 }

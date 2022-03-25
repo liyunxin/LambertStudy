@@ -36,6 +36,9 @@
 		F47DC19E278E7B8200BAED33 /* Solution219.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47DC19D278E7B8200BAED33 /* Solution219.swift */; };
 		F47F95B9276C2103006A7A4E /* Solution119.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F95B8276C2103006A7A4E /* Solution119.swift */; };
 		F47F95BC276C2238006A7A4E /* Solution121.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F95BB276C2238006A7A4E /* Solution121.swift */; };
+		F4853D3027ED591200A643EB /* Solution350.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4853D2F27ED591200A643EB /* Solution350.swift */; };
+		F4853D3327ED699300A643EB /* Solution367.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4853D3227ED699300A643EB /* Solution367.swift */; };
+		F4853D3627ED6DAF00A643EB /* Solution374.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4853D3527ED6DAF00A643EB /* Solution374.swift */; };
 		F4855F612791095800B1F510 /* Solution228.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4855F602791095800B1F510 /* Solution228.swift */; };
 		F4898DF927698C8200E544AE /* Solution094.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4898DF827698C8200E544AE /* Solution094.swift */; };
 		F4898DFB27698CEB00E544AE /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4898DFA27698CEB00E544AE /* TreeNode.swift */; };
@@ -129,6 +132,9 @@
 		F47DC19D278E7B8200BAED33 /* Solution219.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution219.swift; sourceTree = "<group>"; };
 		F47F95B8276C2103006A7A4E /* Solution119.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution119.swift; sourceTree = "<group>"; };
 		F47F95BB276C2238006A7A4E /* Solution121.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution121.swift; sourceTree = "<group>"; };
+		F4853D2F27ED591200A643EB /* Solution350.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution350.swift; sourceTree = "<group>"; };
+		F4853D3227ED699300A643EB /* Solution367.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution367.swift; sourceTree = "<group>"; };
+		F4853D3527ED6DAF00A643EB /* Solution374.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution374.swift; sourceTree = "<group>"; };
 		F4855F602791095800B1F510 /* Solution228.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution228.swift; sourceTree = "<group>"; };
 		F4898DF827698C8200E544AE /* Solution094.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution094.swift; sourceTree = "<group>"; };
 		F4898DFA27698CEB00E544AE /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
@@ -314,6 +320,9 @@
 				F479BB6927EC792200F35881 /* 344.反转字符串 */,
 				F479BB6C27EC7A3700F35881 /* 345.反转字符串中的元音字母 */,
 				F479BB6F27EC7F0900F35881 /* 349.两个数组的交集 */,
+				F4853D2E27ED591200A643EB /* 350.两个数组的交集II */,
+				F4853D3127ED698600A643EB /* 367.有效的完全平方数 */,
+				F4853D3427ED6D9200A643EB /* 374.猜数字大小 */,
 			);
 			path = "300-399";
 			sourceTree = "<group>";
@@ -436,6 +445,30 @@
 				F47F95BB276C2238006A7A4E /* Solution121.swift */,
 			);
 			path = "121.买卖股票的最佳时机";
+			sourceTree = "<group>";
+		};
+		F4853D2E27ED591200A643EB /* 350.两个数组的交集II */ = {
+			isa = PBXGroup;
+			children = (
+				F4853D2F27ED591200A643EB /* Solution350.swift */,
+			);
+			path = "350.两个数组的交集II";
+			sourceTree = "<group>";
+		};
+		F4853D3127ED698600A643EB /* 367.有效的完全平方数 */ = {
+			isa = PBXGroup;
+			children = (
+				F4853D3227ED699300A643EB /* Solution367.swift */,
+			);
+			path = "367.有效的完全平方数";
+			sourceTree = "<group>";
+		};
+		F4853D3427ED6D9200A643EB /* 374.猜数字大小 */ = {
+			isa = PBXGroup;
+			children = (
+				F4853D3527ED6DAF00A643EB /* Solution374.swift */,
+			);
+			path = "374.猜数字大小";
 			sourceTree = "<group>";
 		};
 		F4855F5F2791094600B1F510 /* 228.汇总区间 */ = {
@@ -991,6 +1024,7 @@
 				F4898E0E2769F9C200E544AE /* Solution111.swift in Sources */,
 				F47C4CAA279002120000756C /* Solution225.swift in Sources */,
 				F4FA96C3278FC15200C1588D /* Solution169.swift in Sources */,
+				F4853D3027ED591200A643EB /* Solution350.swift in Sources */,
 				F48EFBA627D6ECCE0087F78A /* Solution268.swift in Sources */,
 				F4898DF927698C8200E544AE /* Solution094.swift in Sources */,
 				F479BB6527EC767400F35881 /* Solution338.swift in Sources */,
@@ -1014,7 +1048,9 @@
 				F47F95B9276C2103006A7A4E /* Solution119.swift in Sources */,
 				F4A44931276358030093A817 /* Solution.swift in Sources */,
 				F42E76872797DCDA0010B5E8 /* Solution237.swift in Sources */,
+				F4853D3327ED699300A643EB /* Solution367.swift in Sources */,
 				F48B057227686BBE0002C01E /* Solution067.swift in Sources */,
+				F4853D3627ED6DAF00A643EB /* Solution374.swift in Sources */,
 				F4F47207276718B1002B206D /* Solution001.swift in Sources */,
 				F48B057E27689A4E0002C01E /* Solution088.swift in Sources */,
 				F4898E052769D51200E544AE /* Solution104.swift in Sources */,
