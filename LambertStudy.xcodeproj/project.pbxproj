@@ -12,6 +12,7 @@
 		F40C95712792A51300A9A33D /* Solution232.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40C95702792A51300A9A33D /* Solution232.swift */; };
 		F41D659627E878BA00D451B5 /* Solution278.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D659527E878BA00D451B5 /* Solution278.swift */; };
 		F41D659927E87CA100D451B5 /* Solution283.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D659827E87CA100D451B5 /* Solution283.swift */; };
+		F42247F728363F1100131A6E /* Solution383.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42247F628363F1100131A6E /* Solution383.swift */; };
 		F426D8C827995E580082381D /* Solution242.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426D8C727995E580082381D /* Solution242.swift */; };
 		F42E76872797DCDA0010B5E8 /* Solution237.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E76862797DCDA0010B5E8 /* Solution237.swift */; };
 		F42E768A2797DDBE0010B5E8 /* Solution235.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E76892797DDBE0010B5E8 /* Solution235.swift */; };
@@ -108,6 +109,7 @@
 		F40C95702792A51300A9A33D /* Solution232.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution232.swift; sourceTree = "<group>"; };
 		F41D659527E878BA00D451B5 /* Solution278.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution278.swift; sourceTree = "<group>"; };
 		F41D659827E87CA100D451B5 /* Solution283.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution283.swift; sourceTree = "<group>"; };
+		F42247F628363F1100131A6E /* Solution383.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution383.swift; sourceTree = "<group>"; };
 		F426D8C727995E580082381D /* Solution242.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution242.swift; sourceTree = "<group>"; };
 		F42E76862797DCDA0010B5E8 /* Solution237.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution237.swift; sourceTree = "<group>"; };
 		F42E76892797DDBE0010B5E8 /* Solution235.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution235.swift; sourceTree = "<group>"; };
@@ -238,6 +240,14 @@
 			path = "283.移动零";
 			sourceTree = "<group>";
 		};
+		F42247F528363F0400131A6E /* 383.赎金信 */ = {
+			isa = PBXGroup;
+			children = (
+				F42247F628363F1100131A6E /* Solution383.swift */,
+			);
+			path = "383.赎金信";
+			sourceTree = "<group>";
+		};
 		F426D8C627995E020082381D /* 242.有效的字母异位词 */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,6 +333,7 @@
 				F4853D2E27ED591200A643EB /* 350.两个数组的交集II */,
 				F4853D3127ED698600A643EB /* 367.有效的完全平方数 */,
 				F4853D3427ED6D9200A643EB /* 374.猜数字大小 */,
+				F42247F528363F0400131A6E /* 383.赎金信 */,
 			);
 			path = "300-399";
 			sourceTree = "<group>";
@@ -1022,6 +1033,7 @@
 				F4FA96B7278FBDCC00C1588D /* Solution155.swift in Sources */,
 				F4A4492727634B860093A817 /* main.swift in Sources */,
 				F4898E0E2769F9C200E544AE /* Solution111.swift in Sources */,
+				F42247F728363F1100131A6E /* Solution383.swift in Sources */,
 				F47C4CAA279002120000756C /* Solution225.swift in Sources */,
 				F4FA96C3278FC15200C1588D /* Solution169.swift in Sources */,
 				F4853D3027ED591200A643EB /* Solution350.swift in Sources */,
