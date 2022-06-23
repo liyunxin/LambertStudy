@@ -80,4 +80,7 @@ import Foundation
 //Solution350().fire()
 //Solution367().fire()
 //Solution374().fire()
-Solution383().fire()
+//Solution383().fire()
+//Solution387().fire()
+Solution389().fire()
+//Solution401().fire()
